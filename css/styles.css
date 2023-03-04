@@ -477,7 +477,7 @@ body {
 /* ========================== HERO SECTION ========================== */
 
 .hero-section {
-  padding-top: 188px;
+  padding-top: 112px;
   padding-bottom: 188px;
   display: flex;
   flex-direction: column;
@@ -523,7 +523,7 @@ body {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/tablet-hero-bg.jpg");
-    padding-bottom: 108px;
+    padding-bottom: 188px;
     padding-top: 112px;
   }
 }
@@ -565,7 +565,7 @@ body {
 .hero-title {
   width: 500px;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -646,6 +646,7 @@ body {
   }
 }
 .advantage-title {
+  color: var(--navy-blue);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -655,6 +656,7 @@ body {
 }
 
 .advantage-description {
+  color: var(--slate);
   font-weight: 500;
 }
 
